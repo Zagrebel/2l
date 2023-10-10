@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	setlocale(0, "");
+	int num;
+	cout << " Введите число: ";
+	cin >> num;
+	if (num < 0)
+	{
+		cout << " Отрицательное ";
+	}
+	else if (num == 0)
+	{
+		cout << " Равно нулю ";
+	}
+	else
+	{
+		cout << " Пололжительное ";
+	}
+	return 0;
+}
