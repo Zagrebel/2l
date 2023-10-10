@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+setlocale(0, "");
+	int num;
+	int num1 = 2;
+	cout << "Введите число:";
+	cin >> num;
+	while (num % num1 != 0)
+	{
+		num1++;
+	}
+	if (num == num1)
+	{
+		cout << " Error ";
+	}
+	else
+	{
+		cout << " Простое ";
+	}
+
+
+	return 0;
+}
+
